@@ -1,9 +1,9 @@
 .small--input {
   width: 100%;
-  margin-top: 20px;
   height: 42px;
 
   font-family: avenir-normal, sans-serif;
+  font-weight: 400;
   box-sizing: border-box;
   font-size: 14px;
 
@@ -31,4 +31,8 @@
   );
   border: 1px solid rgba(225, 231, 237, 1);
   border-radius: 4px;
+}
+
+.form-search--small {
+  margin-top: 20px;
 }
