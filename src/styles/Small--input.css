@@ -3,7 +3,6 @@
   height: 42px;
 
   font-family: avenir-normal, sans-serif;
-  font-weight: 400;
   box-sizing: border-box;
   font-size: 14px;
 
@@ -24,13 +23,20 @@
 .small--input:focus {
   font-family: avenir-heavy, sans-serif;
   outline: none;
-  background-color: linear-gradient(
+  background-image:
+    url(../images/Search.svg),
+    linear-gradient(
     180deg,
     rgba(255, 255, 255, 1) 0%,
     rgba(246, 246, 247, 1) 100%
   );
+  background-repeat: no-repeat;
+  background-position: 13px center;
+  background-size: 11px 11px, auto;
   border: 1px solid rgba(225, 231, 237, 1);
   border-radius: 4px;
+
+
 }
 
 .form-search--small {
